@@ -12,7 +12,7 @@ class ExampleFilter implements Filter {
     }
 }
 
-public class Main {
+public class CollectionWork {
     public static <T> T[] filter(T[] array, Class<? extends Filter> filterClass) {
         T[] newArray = array.clone();
         try {
